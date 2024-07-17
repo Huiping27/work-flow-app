@@ -1,38 +1,29 @@
-.App {
-  text-align: center;
+/* In einer globalen CSS-Datei wie App.css */
+body {
+  font-size: 18px; /* Textgröße erhöhen */
+  color: #333; /* Standardtextfarbe */
+  background-color: #f0f0f0; /* Hintergrundfarbe */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Beispielstil für Links */
+a {
+  color: #007bff; /* Linkfarbe */
+  text-decoration: none; /* Keine Unterstreichung */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Beispielstil für Überschriften */
+h1, h2, h3 {
+  color: #444; /* Überschriftfarbe */
+  font-size: 24px; /* Textgröße für Überschriften anpassen */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Beispielstil für Buttons */
+button {
+  background-color: #007bff; /* Button-Hintergrundfarbe */
+  color: white; /* Button-Textfarbe */
+  border: none; /* Keine Rahmen */
+  padding: 12px 24px; /* Innenabstand anpassen */
+  cursor: pointer; /* Zeiger bei Hover */
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Weitere spezifische Stile nach Bedarf hinzufügen */
